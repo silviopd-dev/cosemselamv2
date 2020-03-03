@@ -1,0 +1,21 @@
+version: "3.2"
+services:
+  web:
+    build: $PWD/docker/web
+    container_name: web
+    ports:
+      - "80:80"
+    volumes:
+      - $PWD/web/:/var/www/html
+    environment:
+      - TZ=America/Lima
+    networks:
+      net:
+        ipv4_address: 172.90.0.10
+networks:
+  net:
+    driver: bridge
+    ipam:
+      driver: default
+      config:
+        - subnet: 172.90.0.0/24
