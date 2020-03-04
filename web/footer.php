@@ -1,5 +1,5 @@
 <footer class="m-footer text-right m-background1">
-  <div>
-    <h2>aaaa</h2>
+  <div class="center-v-h-end">
+    <h6 style="margin:0; padding: 5px 5px">DESARROLLADO POR CHCOMPUTER</h6>
   </div>
 </footer>

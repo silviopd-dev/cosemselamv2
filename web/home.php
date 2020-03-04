@@ -10,10 +10,10 @@
 
 <body>
   <div class="row" style="margin: 0; height: 100vh; width: 100%">
-    <div class="col-3 m-background1" style="padding: 0">
+    <div class="m-background1" style="padding: 0;width: 300px">
       <?php require_once 'menu.php' ?>
     </div>
-    <div class=" col-9" style="padding: 0">
+    <div class="" style="padding: 0;width: calc(100% - 300px)">
       <?php require_once 'header.php' ?>
       <div style="padding: 0 15px">
         <h2>derecha</h2>

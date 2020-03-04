@@ -8,18 +8,19 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
   <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" type="text/css" rel="stylesheet" />
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" type="text/css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/login.css" />
 </head>
 
 <body>
   <div class="row general">
     <div class="col-8 center-v-h">
-      <img src="img/cosemselam.jpeg" alt="" />
+      <img src="img/cosemselam.jpeg" alt="" width="80%"/>
     </div>
     <div class="col-4 center-v-h background">
       <div class="">
         <div class="row mb-30 center-v-h">
-          <img src="img/cosemselam2.jpeg" alt="" width="15%" style="margin-right: 10px;" />
+          <img src="img/cosemselam2.png" alt="" width="15%" style="margin-right: 10px;" />
           <h1 class="text-center">Admisión</h1>
         </div>
         <div class="background-form">
