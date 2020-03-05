@@ -3,9 +3,14 @@ $(document).ready(function() {
 
     if(window.location.href.split("/")[leng-1] == "socio.php" || window.location.href.split("/")[leng-1] == "familiar.php" || window.location.href.split("/")[leng-1] == "beneficiario.php" || window.location.href.split("/")[leng-1] == "datoslaborales.php"){
         document.getElementById("menuregistro").className = "collapse show"
+        document.querySelector(".menuregistro").className = "collapse show"
 
         let act = window.location.href.split("/")[leng-1].split(".")[0]
+        
         document.getElementById(`${act}`).className = "m-submenu m-active"
+        document.querySelector(`.${act}`).className = `m-submenu ${act} m-active`
+
+
     }
 
     //DATATABLE SOCIO

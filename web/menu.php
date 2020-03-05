@@ -1,21 +1,3 @@
-<!-- <div class="m-desktop">
-  <?php require 'menuoption.php' ?>
-</div>
-
-<div class="m-mobile">
-  <nav role="navigation">
-    <div id="menuToggle">
-      <input type="checkbox" />
-      <span></span>
-      <span></span>
-      <span></span>
-      <ul id="menu">
-        <?php require 'menuoption.php' ?>
-      </ul>
-    </div>
-  </nav>
-</div> -->
-
 <section class="text-center">
   <div class="center-v-h" style="height: 80px">
     <h4>SISTEMA ADMISIÓN</h4>
@@ -63,20 +45,20 @@
         <i class="fa fa-chevron-down"></i>
       </button>
     </nav>
-    <div class="collapse" id="menuregistro">
-      <div class="m-submenu" id="socio">
+    <div class="collapse menuregistro" id="menuregistro">
+      <div class="m-submenu socio" id="socio">
         <i class="fa fa-user-tie"></i>
         <a class="m-color-black" href="socio.php">SOCIO</a>
       </div>
-      <div class="m-submenu" id="datoslaborales">
+      <div class="m-submenu datoslaborales" id="datoslaborales">
         <i class="fas fa-id-card"></i>
         <a class="m-color-black" href="datoslaborales.php">DATOS LABORALES</a>
       </div>
-      <div class="m-submenu" id="familiar">
+      <div class="m-submenu familiar" id="familiar">
         <i class="fa fa-users"></i>
         <a class="m-color-black" href="familiar.php">FAMILIAR</a>
       </div>
-      <div class="m-submenu" id="beneficiario">
+      <div class="m-submenu beneficiario" id="beneficiario">
         <i class="fas fa-user-injured"></i>
         <a class="m-color-black" href="beneficiario.php">BENEFICIARIO</a>
       </div>
