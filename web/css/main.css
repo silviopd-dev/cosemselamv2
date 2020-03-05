@@ -9,7 +9,7 @@ body {
 .m-footer {
   position: fixed;
   bottom: 0;
-  width: 100%;
+  width: calc(100% - 300px);
   right: 0;
 }
 
@@ -71,8 +71,28 @@ body {
 
 .m-submenu{
   padding: 5px 0px;
+  padding-left: 55px;
 }
 
 button:focus {
   outline: none !important;
+}
+
+h3{
+  margin: 10px 0 20px 0 !important;
+}
+
+.navbar{
+  width: fit-content;
+}
+
+.m-derecha{
+  padding: 0;
+  width: calc(100% - 300px);
+  background: white;
+}
+
+.m-row-derecha{
+  margin: 0; 
+  width: 100%;
 }

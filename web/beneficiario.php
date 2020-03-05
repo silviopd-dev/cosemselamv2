@@ -15,16 +15,16 @@
       <span></span>
       <span></span>
       <span></span>
-      <ul id="menu">
-        <?php require 'menuoption.php' ?>
+      <ul class="scrollbar" id="menu">
+        <?php require 'menu.php' ?>
       </ul>
     </div>
   </nav>
-  <div class="row" style="margin: 0; height: 100vh; width: 100%">
-    <div class="m-background1 m-desktop" style="padding: 0;width: 300px">
-      <?php require_once 'menu.php' ?>
+  <div class="row m-row-derecha">
+    <div class="m-background1 m-desktop scrollbar">
+      <?php require 'menu.php' ?>
     </div>
-    <div class="m-derecha" style="padding: 0;width: calc(100% - 300px)">
+    <div class="m-derecha">
       <?php require_once 'header.php' ?>
       <div style="padding: 10px 15px">
         <h3 class="text-center">REGISTRO BENEFICIARIO</h3>

@@ -1,17 +1,18 @@
 $(document).ready(function() {
     let leng = window.location.href.split("/").length
+    let act = window.location.href.split("/")[leng-1].split(".")[0]
 
-    if(window.location.href.split("/")[leng-1] == "socio.php" || window.location.href.split("/")[leng-1] == "familiar.php" || window.location.href.split("/")[leng-1] == "beneficiario.php" || window.location.href.split("/")[leng-1] == "datoslaborales.php"){
-        document.getElementById("menuregistro").className = "collapse show"
-        document.querySelector(".menuregistro").className = "collapse show"
-
-        let act = window.location.href.split("/")[leng-1].split(".")[0]
-        
-        document.getElementById(`${act}`).className = "m-submenu m-active"
-        document.querySelector(`.${act}`).className = `m-submenu ${act} m-active`
+    let nodeParent = document.getElementById(`${act}`).parentNode.id
 
 
-    }
+    document.getElementById(`${nodeParent}`).className = "collapse show"
+    document.querySelector(`.${nodeParent}`).className = "collapse show"
+
+
+    document.getElementById(`${act}`).className = "m-submenu m-active"
+    document.querySelector(`.${act}`).className = `m-submenu ${act} m-active`
+
+
 
     //DATATABLE SOCIO
     $('#example').DataTable({
@@ -23,6 +24,15 @@ $(document).ready(function() {
         "bAutoWidth": false
     });
 
+     //DATATABLE DIRECCION
+     $('#example1').DataTable({
+        "searching": false,
+        // "bPaginate": false,
+        "bLengthChange": false,
+        "bFilter": true,
+        "bInfo": false,
+        "bAutoWidth": false
+    });
     
     //DATATABLE DIRECCION
     $('#example2').DataTable({
