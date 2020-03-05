@@ -1,21 +1,3 @@
-<!-- <div class="m-desktop">
-  <?php require 'menuoption.php' ?>
-</div>
-
-<div class="m-mobile">
-  <nav role="navigation">
-    <div id="menuToggle">
-      <input type="checkbox" />
-      <span></span>
-      <span></span>
-      <span></span>
-      <ul id="menu">
-        <?php require 'menuoption.php' ?>
-      </ul>
-    </div>
-  </nav>
-</div> -->
-
 <section class="text-center">
   <div class="center-v-h" style="height: 80px">
     <h4>SISTEMA ADMISIÓN</h4>

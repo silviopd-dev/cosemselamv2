@@ -72,3 +72,7 @@ body {
 .m-submenu{
   padding: 5px 0px;
 }
+
+button:focus {
+  outline: none !important;
+}

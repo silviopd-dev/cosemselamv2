@@ -9,25 +9,14 @@
 </head>
 
 <body>
-  <nav class="m-mobile" role="navigation">
-    <div id="menuToggle">
-      <input type="checkbox" />
-      <span></span>
-      <span></span>
-      <span></span>
-      <ul id="menu">
-        <?php require 'menuoption.php' ?>
-      </ul>
-    </div>
-  </nav>
   <div class="row" style="margin: 0; height: 100vh; width: 100%">
-    <div class="m-background1 m-desktop" style="padding: 0;width: 300px">
+    <div class="m-background1" style="padding: 0;width: 300px">
       <?php require_once 'menu.php' ?>
     </div>
     <div class="m-derecha" style="padding: 0;width: calc(100% - 300px)">
       <?php require_once 'header.php' ?>
       <div style="padding: 10px 15px">
-        <h3 class="text-center">REGISTRO SOCIO</h3>
+        <h3 class="text-center">REGISTRO BENEFICIARIO</h3>
         <ul class="nav nav-tabs" id="myTab" role="tablist">
           <li class="nav-item">
             <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true"><i class="fas fa-user-lock"></i>&nbsp;DATOS PERSONALES</a>

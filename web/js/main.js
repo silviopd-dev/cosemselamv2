@@ -1,7 +1,7 @@
 $(document).ready(function() {
     let leng = window.location.href.split("/").length
 
-    if(window.location.href.split("/")[leng-1] == "socio.php" || window.location.href.split("/")[leng-1] == "familiar.php" || window.location.href.split("/")[leng-1] == "beneficiario.php"){
+    if(window.location.href.split("/")[leng-1] == "socio.php" || window.location.href.split("/")[leng-1] == "familiar.php" || window.location.href.split("/")[leng-1] == "beneficiario.php" || window.location.href.split("/")[leng-1] == "datoslaborales.php"){
         document.getElementById("menuregistro").className = "collapse show"
 
         let act = window.location.href.split("/")[leng-1].split(".")[0]
